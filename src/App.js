@@ -12,8 +12,8 @@ class App extends React.Component {
   //JSX
   render() {
     return (
-      <div>
-        hello world with eric &amp; Hoi dan it
+      <div className='app-container'>
+        {/* hello world with eric &amp; Hoi dan it */}
         <MyComponent></MyComponent>
       </div>
     );
